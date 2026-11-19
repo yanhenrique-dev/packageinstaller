@@ -17,190 +17,216 @@
 <context>
     <name>AppImageClient</name>
     <message>
-        <location filename="../src/appimageclient.cpp" line="342"/>
+        <location filename="../src/appimageclient.cpp" line="344"/>
         <source>Could not copy the file to %1.</source>
         <translation>Não foi possível copiar o arquivo para %1.</translation>
     </message>
     <message>
-        <location filename="../src/appimageclient.cpp" line="347"/>
-        <location filename="../src/appimageclient.cpp" line="361"/>
+        <location filename="../src/appimageclient.cpp" line="349"/>
+        <location filename="../src/appimageclient.cpp" line="363"/>
         <source>Adding the AppImage was stopped.</source>
         <translation>A adição do AppImage foi interrompida.</translation>
     </message>
     <message>
-        <location filename="../src/appimageclient.cpp" line="350"/>
-        <location filename="../src/appimageclient.cpp" line="354"/>
+        <location filename="../src/appimageclient.cpp" line="352"/>
+        <location filename="../src/appimageclient.cpp" line="356"/>
         <source>Could not copy the file to %1. Is there enough free space?</source>
         <translation>Não foi possível copiar o arquivo para %1. Há espaço livre suficiente?</translation>
     </message>
     <message>
-        <location filename="../src/appimageclient.cpp" line="366"/>
+        <location filename="../src/appimageclient.cpp" line="368"/>
         <source>This file is not an AppImage.</source>
         <translation>Este arquivo não é um AppImage.</translation>
     </message>
     <message>
-        <location filename="../src/appimageclient.cpp" line="374"/>
+        <location filename="../src/appimageclient.cpp" line="376"/>
         <source>Could not create the folders for AppImages in your home directory.</source>
         <translation>Não foi possível criar as pastas para AppImages no seu diretório pessoal.</translation>
     </message>
     <message>
-        <location filename="../src/appimageclient.cpp" line="378"/>
-        <location filename="../src/appimageclient.cpp" line="1009"/>
+        <location filename="../src/appimageclient.cpp" line="380"/>
+        <location filename="../src/appimageclient.cpp" line="1218"/>
         <source>Another window of this app is adding or removing an AppImage. Try again when it has finished.</source>
         <translation>Outra janela deste aplicativo está adicionando ou removendo um AppImage. Tente novamente quando ela terminar.</translation>
     </message>
     <message>
-        <location filename="../src/appimageclient.cpp" line="399"/>
+        <location filename="../src/appimageclient.cpp" line="401"/>
         <source>Could not create a temporary folder.</source>
         <translation>Não foi possível criar uma pasta temporária.</translation>
     </message>
     <message>
-        <location filename="../src/appimageclient.cpp" line="401"/>
+        <location filename="../src/appimageclient.cpp" line="403"/>
         <source>The AppImage unpacks to more than 1 GiB before its name and icon can be read, so it was not added.</source>
         <translation>O AppImage descompacta mais de 1 GiB antes que seu nome e ícone possam ser lidos, por isso não foi adicionado.</translation>
     </message>
     <message>
-        <location filename="../src/appimageclient.cpp" line="423"/>
+        <location filename="../src/appimageclient.cpp" line="425"/>
         <source>The AppImage could not be read. It may be damaged, or built for another kind of computer.</source>
         <translation>Não foi possível ler o AppImage. Ele pode estar danificado ou ter sido criado para outro tipo de computador.</translation>
     </message>
     <message>
-        <location filename="../src/appimageclient.cpp" line="430"/>
+        <location filename="../src/appimageclient.cpp" line="432"/>
         <source>The AppImage does not describe an application (no menu entry inside).</source>
         <translation>O AppImage não descreve um aplicativo (não há entrada de menu dentro dele).</translation>
     </message>
     <message>
-        <location filename="../src/appimageclient.cpp" line="437"/>
+        <location filename="../src/appimageclient.cpp" line="439"/>
         <source>Another application already uses the menu entry “%1”.</source>
         <translation>Outro aplicativo já usa a entrada de menu “%1”.</translation>
     </message>
     <message>
-        <location filename="../src/appimageclient.cpp" line="446"/>
+        <location filename="../src/appimageclient.cpp" line="444"/>
+        <source>%1 is one of your AppImages already.</source>
+        <translation>%1 já é um dos seus AppImages.</translation>
+    </message>
+    <message>
+        <location filename="../src/appimageclient.cpp" line="453"/>
         <source>The list of AppImages changed in the meantime. Nothing was updated.</source>
         <translation>A lista de AppImages mudou enquanto isso. Nada foi atualizado.</translation>
     </message>
     <message>
-        <location filename="../src/appimageclient.cpp" line="460"/>
+        <location filename="../src/appimageclient.cpp" line="467"/>
         <source>Could not find a free file name in %1.</source>
         <translation>Não foi possível encontrar um nome de arquivo livre em %1.</translation>
     </message>
     <message>
-        <location filename="../src/appimageclient.cpp" line="482"/>
+        <location filename="../src/appimageclient.cpp" line="489"/>
         <source>The menu entry inside the AppImage is not usable.</source>
         <translation>A entrada de menu dentro do AppImage não é utilizável.</translation>
     </message>
     <message>
-        <location filename="../src/appimageclient.cpp" line="500"/>
+        <location filename="../src/appimageclient.cpp" line="507"/>
         <source>Could not replace the earlier copy in %1.</source>
         <translation>Não foi possível substituir a cópia anterior em %1.</translation>
     </message>
     <message>
-        <location filename="../src/appimageclient.cpp" line="505"/>
+        <location filename="../src/appimageclient.cpp" line="512"/>
         <source>Could not move the AppImage into %1.</source>
         <translation>Não foi possível mover o AppImage para %1.</translation>
     </message>
     <message>
-        <location filename="../src/appimageclient.cpp" line="511"/>
+        <location filename="../src/appimageclient.cpp" line="518"/>
         <source>Could not write the menu entry. Nothing was changed.</source>
         <translation>Não foi possível gravar a entrada de menu. Nada foi alterado.</translation>
     </message>
     <message>
-        <location filename="../src/appimageclient.cpp" line="535"/>
+        <location filename="../src/appimageclient.cpp" line="542"/>
         <source>%1 was added to your menu.</source>
         <translation>%1 foi adicionado ao seu menu.</translation>
     </message>
     <message>
-        <location filename="../src/appimageclient.cpp" line="595"/>
+        <location filename="../src/appimageclient.cpp" line="777"/>
         <source>%1 was not moved: %2</source>
         <translation>%1 não foi movido: %2</translation>
     </message>
     <message>
-        <location filename="../src/appimageclient.cpp" line="609"/>
+        <location filename="../src/appimageclient.cpp" line="785"/>
+        <source>%1 changed while it was being moved, so it was left in %2.</source>
+        <translation>%1 mudou enquanto era movido, então foi deixado em %2.</translation>
+    </message>
+    <message>
+        <location filename="../src/appimageclient.cpp" line="787"/>
+        <source>%1 was copied, but could not be removed from %2.</source>
+        <translation>%1 foi copiado, mas não pôde ser removido de %2.</translation>
+    </message>
+    <message>
+        <location filename="../src/appimageclient.cpp" line="798"/>
+        <source>Moved from %1: %2.</source>
+        <translation>Movido de %1: %2.</translation>
+    </message>
+    <message numerus="yes">
+        <location filename="../src/appimageclient.cpp" line="991"/>
+        <source>%n AppImage(s) from %1</source>
+        <translation><numerusform>%n AppImage de %1</numerusform><numerusform>%n AppImages de %1</numerusform></translation>
+    </message>
+    <message>
+        <location filename="../src/appimageclient.cpp" line="605"/>
         <source>Shelly&apos;s own list could not be updated; it still names the apps that were moved.</source>
         <translation>A lista do Shelly não pôde ser atualizada; ela ainda indica os aplicativos que foram movidos.</translation>
     </message>
     <message>
-        <location filename="../src/appimageclient.cpp" line="613"/>
         <source>Moved from Shelly: %1.</source>
-        <translation>Movido do Shelly: %1.</translation>
+        <translation type="vanished">Movido do Shelly: %1.</translation>
     </message>
     <message>
-        <location filename="../src/appimageclient.cpp" line="644"/>
+        <location filename="../src/appimageclient.cpp" line="834"/>
         <source>There is no project %1 on GitHub, or it has not published a release.</source>
         <translation>Não existe o projeto %1 no GitHub, ou ele não publicou uma versão.</translation>
     </message>
     <message>
-        <location filename="../src/appimageclient.cpp" line="647"/>
+        <location filename="../src/appimageclient.cpp" line="837"/>
         <source>GitHub answers only a limited number of questions per hour, and that limit is reached. Try again later.</source>
         <translation>O GitHub responde a um número limitado de consultas por hora, e esse limite foi atingido. Tente novamente mais tarde.</translation>
     </message>
     <message>
-        <location filename="../src/appimageclient.cpp" line="649"/>
+        <location filename="../src/appimageclient.cpp" line="839"/>
         <source>GitHub could not be reached.</source>
         <translation>Não foi possível acessar o GitHub.</translation>
     </message>
     <message>
-        <location filename="../src/appimageclient.cpp" line="657"/>
+        <location filename="../src/appimageclient.cpp" line="847"/>
         <source>GitHub gave an answer about %1 that could not be read.</source>
         <translation>O GitHub deu uma resposta sobre %1 que não pôde ser lida.</translation>
     </message>
     <message>
-        <location filename="../src/appimageclient.cpp" line="760"/>
+        <location filename="../src/appimageclient.cpp" line="950"/>
         <source>This is not a file on this computer.</source>
         <translation>Este não é um arquivo deste computador.</translation>
     </message>
     <message>
-        <location filename="../src/appimageclient.cpp" line="762"/>
+        <location filename="../src/appimageclient.cpp" line="952"/>
         <source>“%1” is not an AppImage.</source>
         <translation>“%1” não é um AppImage.</translation>
     </message>
     <message numerus="yes">
-        <location filename="../src/appimageclient.cpp" line="792"/>
         <source>%n AppImage(s) from Shelly</source>
-        <translation><numerusform>%n AppImage do Shelly</numerusform><numerusform>%n AppImages do Shelly</numerusform></translation>
+        <translation type="vanished">
+            <numerusform>%n AppImage do Shelly</numerusform>
+            <numerusform>%n AppImages do Shelly</numerusform>
+        </translation>
     </message>
     <message>
-        <location filename="../src/appimageclient.cpp" line="805"/>
+        <location filename="../src/appimageclient.cpp" line="1014"/>
         <source>This is not a link to a project on GitHub. One looks like https://github.com/owner/project.</source>
         <translation>Este não é um link para um projeto no GitHub. Um link válido se parece com https://github.com/owner/project.</translation>
     </message>
     <message>
-        <location filename="../src/appimageclient.cpp" line="829"/>
+        <location filename="../src/appimageclient.cpp" line="1038"/>
         <source>The newest release of %1 (%2) has no AppImage file for this computer.</source>
         <translation>A versão mais recente de %1 (%2) não tem um arquivo AppImage para este computador.</translation>
     </message>
     <message>
-        <location filename="../src/appimageclient.cpp" line="887"/>
+        <location filename="../src/appimageclient.cpp" line="1096"/>
         <source>Could not write to %1.</source>
         <translation>Não foi possível gravar em %1.</translation>
     </message>
     <message>
-        <location filename="../src/appimageclient.cpp" line="936"/>
+        <location filename="../src/appimageclient.cpp" line="1145"/>
         <source>%1 could not be downloaded. Check the connection and the free space in %2.</source>
         <translation>Não foi possível baixar %1. Verifique a conexão e o espaço livre em %2.</translation>
     </message>
     <message>
-        <location filename="../src/appimageclient.cpp" line="939"/>
+        <location filename="../src/appimageclient.cpp" line="1148"/>
         <source>The file that arrived is not the one GitHub lists as %1, so it was not added.</source>
         <translation>O arquivo recebido não é o que o GitHub lista como %1, por isso não foi adicionado.</translation>
     </message>
     <message>
-        <location filename="../src/appimageclient.cpp" line="1003"/>
+        <location filename="../src/appimageclient.cpp" line="1212"/>
         <source>An AppImage is being added. Remove this one when that has finished.</source>
         <translation>Um AppImage está sendo adicionado. Remova este quando aquela operação terminar.</translation>
     </message>
     <message>
-        <location filename="../src/appimageclient.cpp" line="1016"/>
+        <location filename="../src/appimageclient.cpp" line="1225"/>
         <source>The list of AppImages changed in the meantime. Nothing was removed.</source>
         <translation>A lista de AppImages mudou enquanto isso. Nada foi removido.</translation>
     </message>
     <message>
-        <location filename="../src/appimageclient.cpp" line="1022"/>
+        <location filename="../src/appimageclient.cpp" line="1231"/>
         <source>Could not delete %1.</source>
         <translation>Não foi possível excluir %1.</translation>
     </message>
     <message>
-        <location filename="../src/appimageclient.cpp" line="1037"/>
+        <location filename="../src/appimageclient.cpp" line="1246"/>
         <source>Could not start the application.</source>
         <translation>Não foi possível iniciar o aplicativo.</translation>
     </message>
@@ -278,14 +304,25 @@
         <translation>Instalar fuse2</translation>
     </message>
     <message numerus="yes">
-        <location filename="../qml/AppImagePage.qml" line="187"/>
         <source>You have %n AppImage(s) in Shelly. You can bring them along to this app.</source>
-        <translation><numerusform>Você tem %n AppImage no Shelly. Você pode trazê-lo para este aplicativo.</numerusform><numerusform>Você tem %n AppImages no Shelly. Você pode trazê-los para este aplicativo.</numerusform></translation>
+        <translation type="vanished">
+            <numerusform>Você tem %n AppImage no Shelly. Você pode trazê-lo para este aplicativo.</numerusform>
+            <numerusform>Você tem %n AppImages no Shelly. Você pode trazê-los para este aplicativo.</numerusform>
+        </translation>
+    </message>
+    <message>
+        <source>Move from Shelly…</source>
+        <translation type="vanished">Mover do Shelly…</translation>
+    </message>
+    <message numerus="yes">
+        <location filename="../qml/AppImagePage.qml" line="187"/>
+        <source>You have %n AppImage(s) in %1. You can bring them along to this app.</source>
+        <translation><numerusform>Você tem %n AppImage em %1. Você pode trazê-lo para este aplicativo.</numerusform><numerusform>Você tem %n AppImages em %1. Você pode trazê-los para este aplicativo.</numerusform></translation>
     </message>
     <message>
         <location filename="../qml/AppImagePage.qml" line="192"/>
-        <source>Move from Shelly…</source>
-        <translation>Mover do Shelly…</translation>
+        <source>Move from %1…</source>
+        <translation>Mover de %1…</translation>
     </message>
     <message>
         <location filename="../qml/AppImagePage.qml" line="217"/>
@@ -339,7 +376,7 @@
     </message>
     <message>
         <location filename="../qml/AppImagePage.qml" line="331"/>
-        <location filename="../qml/AppImagePage.qml" line="716"/>
+        <location filename="../qml/AppImagePage.qml" line="718"/>
         <source>Remove</source>
         <translation>Remover</translation>
     </message>
@@ -376,7 +413,7 @@
     <message>
         <location filename="../qml/AppImagePage.qml" line="381"/>
         <location filename="../qml/AppImagePage.qml" line="571"/>
-        <location filename="../qml/AppImagePage.qml" line="710"/>
+        <location filename="../qml/AppImagePage.qml" line="712"/>
         <source>Cancel</source>
         <translation>Cancelar</translation>
     </message>
@@ -432,46 +469,58 @@
     </message>
     <message>
         <location filename="../qml/AppImagePage.qml" line="597"/>
+        <source>Bring your AppImages along from %1?</source>
+        <translation>Trazer seus AppImages de %1?</translation>
+    </message>
+    <message>
+        <location filename="../qml/AppImagePage.qml" line="604"/>
+        <source>You added these AppImages with %1. They can be moved to %2 and looked after by this app from now on:</source>
+        <translation>Você adicionou estes AppImages com %1. Eles podem ser movidos para %2 e cuidados por este aplicativo a partir de agora:</translation>
+    </message>
+    <message>
+        <location filename="../qml/AppImagePage.qml" line="643"/>
+        <source>Each file gets a new menu entry and its old one is removed, so it shows up only once. Apps that are updated from GitHub keep getting their updates here. Other update sources, environment variables and extra arguments are not carried over. To read its name and icon each file is run right away.</source>
+        <translation>Cada arquivo recebe uma nova entrada de menu e a antiga é removida, para aparecer apenas uma vez. Aplicativos atualizados pelo GitHub continuam recebendo suas atualizações aqui. Outras fontes de atualização, variáveis de ambiente e argumentos extras não são transferidos. Para ler seu nome e ícone, cada arquivo é executado imediatamente.</translation>
+    </message>
+    <message>
         <source>Bring your AppImages along from Shelly?</source>
-        <translation>Trazer seus AppImages do Shelly?</translation>
+        <translation type="vanished">Trazer seus AppImages do Shelly?</translation>
     </message>
     <message>
-        <location filename="../qml/AppImagePage.qml" line="602"/>
         <source>You added these AppImages with Shelly. They can be moved to %1 and looked after by this app from now on:</source>
-        <translation>Você adicionou estes AppImages com o Shelly. Eles podem ser movidos para %1 e cuidados por este aplicativo a partir de agora:</translation>
+        <translation type="vanished">Você adicionou estes AppImages com o Shelly. Eles podem ser movidos para %1 e cuidados por este aplicativo a partir de agora:</translation>
     </message>
     <message>
-        <location filename="../qml/AppImagePage.qml" line="641"/>
         <source>Each file gets a new menu entry and is taken off Shelly&apos;s list, so it shows up only once. Apps that Shelly updates from GitHub keep getting their updates here. Other update sources, environment variables and extra arguments set in Shelly are not carried over. To read its name and icon each file is run right away.</source>
-        <translation>Cada arquivo recebe uma nova entrada de menu e é removido da lista do Shelly, para aparecer apenas uma vez. Aplicativos que o Shelly atualiza do GitHub continuam recebendo suas atualizações aqui. Outras fontes de atualização, variáveis de ambiente e argumentos extras definidos no Shelly não são transferidos. Para ler seu nome e ícone, cada arquivo é executado imediatamente.</translation>
+        <translation type="vanished">Cada arquivo recebe uma nova entrada de menu e é removido da lista do Shelly, para aparecer apenas uma vez. Aplicativos que o Shelly atualiza do GitHub continuam recebendo suas atualizações aqui. Outras fontes de atualização, variáveis de ambiente e argumentos extras definidos no Shelly não são transferidos. Para ler seu nome e ícone, cada arquivo é executado imediatamente.</translation>
     </message>
     <message>
-        <location filename="../qml/AppImagePage.qml" line="653"/>
+        <location filename="../qml/AppImagePage.qml" line="655"/>
         <source>Don&apos;t ask again</source>
         <translation>Não perguntar novamente</translation>
     </message>
     <message>
-        <location filename="../qml/AppImagePage.qml" line="663"/>
+        <location filename="../qml/AppImagePage.qml" line="665"/>
         <source>Not now</source>
         <translation>Agora não</translation>
     </message>
     <message>
-        <location filename="../qml/AppImagePage.qml" line="669"/>
+        <location filename="../qml/AppImagePage.qml" line="671"/>
         <source>Move</source>
         <translation>Mover</translation>
     </message>
     <message>
-        <location filename="../qml/AppImagePage.qml" line="689"/>
+        <location filename="../qml/AppImagePage.qml" line="691"/>
         <source>Remove %1?</source>
         <translation>Remover %1?</translation>
     </message>
     <message>
-        <location filename="../qml/AppImagePage.qml" line="696"/>
+        <location filename="../qml/AppImagePage.qml" line="698"/>
         <source>Only the menu entry is deleted. It points to %1, which is not a file this app added, so that file is left alone.</source>
         <translation>Somente a entrada de menu é excluída. Ela aponta para %1, que não é um arquivo adicionado por este aplicativo, então esse arquivo é mantido.</translation>
     </message>
     <message>
-        <location filename="../qml/AppImagePage.qml" line="697"/>
+        <location filename="../qml/AppImagePage.qml" line="699"/>
         <source>The file %1 and its menu entry are deleted. Settings the app saved in your home directory are kept.</source>
         <translation>O arquivo %1 e sua entrada de menu são excluídos. As configurações que o aplicativo salvou no seu diretório pessoal são mantidas.</translation>
     </message>
@@ -585,7 +634,10 @@
     <message numerus="yes">
         <location filename="../qml/AurDetailsPage.qml" line="167"/>
         <source>%1 · %n vote(s)</source>
-        <translation><numerusform>%1 · %n voto</numerusform><numerusform>%1 · %n votos</numerusform></translation>
+        <translation>
+            <numerusform>%1 · %n voto</numerusform>
+            <numerusform>%1 · %n votos</numerusform>
+        </translation>
     </message>
     <message>
         <location filename="../qml/AurDetailsPage.qml" line="168"/>
@@ -725,12 +777,18 @@
     <message numerus="yes">
         <location filename="../qml/AurDetailsPage.qml" line="467"/>
         <source>Build and update %n package(s)</source>
-        <translation><numerusform>Compilar e atualizar %n pacote</numerusform><numerusform>Compilar e atualizar %n pacotes</numerusform></translation>
+        <translation>
+            <numerusform>Compilar e atualizar %n pacote</numerusform>
+            <numerusform>Compilar e atualizar %n pacotes</numerusform>
+        </translation>
     </message>
     <message numerus="yes">
         <location filename="../qml/AurDetailsPage.qml" line="468"/>
         <source>Build and install %n package(s)</source>
-        <translation><numerusform>Compilar e instalar %n pacote</numerusform><numerusform>Compilar e instalar %n pacotes</numerusform></translation>
+        <translation>
+            <numerusform>Compilar e instalar %n pacote</numerusform>
+            <numerusform>Compilar e instalar %n pacotes</numerusform>
+        </translation>
     </message>
     <message>
         <location filename="../qml/AurDetailsPage.qml" line="469"/>
@@ -760,12 +818,18 @@
     <message numerus="yes">
         <location filename="../qml/AurDetailsPage.qml" line="481"/>
         <source>Skip and update %n package(s)</source>
-        <translation><numerusform>Pular e atualizar %n pacote</numerusform><numerusform>Pular e atualizar %n pacotes</numerusform></translation>
+        <translation>
+            <numerusform>Pular e atualizar %n pacote</numerusform>
+            <numerusform>Pular e atualizar %n pacotes</numerusform>
+        </translation>
     </message>
     <message numerus="yes">
         <location filename="../qml/AurDetailsPage.qml" line="482"/>
         <source>Skip and install %n package(s)</source>
-        <translation><numerusform>Pular e instalar %n pacote</numerusform><numerusform>Pular e instalar %n pacotes</numerusform></translation>
+        <translation>
+            <numerusform>Pular e instalar %n pacote</numerusform>
+            <numerusform>Pular e instalar %n pacotes</numerusform>
+        </translation>
     </message>
 </context>
 <context>
@@ -833,7 +897,10 @@
     <message numerus="yes">
         <location filename="../qml/AurPage.qml" line="76"/>
         <source>%1 · %n vote(s)</source>
-        <translation><numerusform>%1 · %n voto</numerusform><numerusform>%1 · %n votos</numerusform></translation>
+        <translation>
+            <numerusform>%1 · %n voto</numerusform>
+            <numerusform>%1 · %n votos</numerusform>
+        </translation>
     </message>
     <message>
         <location filename="../qml/AurPage.qml" line="80"/>
@@ -864,9 +931,22 @@
 <context>
     <name>Backend</name>
     <message>
-        <location filename="../src/backend.cpp" line="162"/>
+        <location filename="../src/backend.cpp" line="207"/>
+        <source>Could not set the default AppImage handler.</source>
+        <translation>Não foi possível definir o manipulador padrão de AppImages.</translation>
+    </message>
+    <message>
+        <location filename="../src/backend.cpp" line="258"/>
         <source>The pacman databases are empty. Refresh them with a system update.</source>
         <translation>Os bancos de dados do pacman estão vazios. Atualize-os com uma atualização do sistema.</translation>
+    </message>
+    <message>
+        <location filename="../src/backend.cpp" line="484"/>
+        <location filename="../src/backend.cpp" line="487"/>
+        <location filename="../src/backend.cpp" line="498"/>
+        <location filename="../src/backend.cpp" line="501"/>
+        <source>The package cache could not be read.</source>
+        <translation>Não foi possível ler o cache de pacotes.</translation>
     </message>
 </context>
 <context>
@@ -944,7 +1024,10 @@
     <message numerus="yes">
         <location filename="../qml/BrowsePage.qml" line="49"/>
         <source>%n package(s)</source>
-        <translation><numerusform>%n pacote</numerusform><numerusform>%n pacotes</numerusform></translation>
+        <translation>
+            <numerusform>%n pacote</numerusform>
+            <numerusform>%n pacotes</numerusform>
+        </translation>
     </message>
     <message>
         <location filename="../qml/BrowsePage.qml" line="55"/>
@@ -1197,7 +1280,10 @@
     <message numerus="yes">
         <location filename="../qml/FlatpakPage.qml" line="65"/>
         <source>%n of them are runtimes and extensions that the apps share.</source>
-        <translation><numerusform>%n deles é um runtime ou extensão compartilhado pelos aplicativos.</numerusform><numerusform>%n deles são runtimes e extensões compartilhados pelos aplicativos.</numerusform></translation>
+        <translation>
+            <numerusform>%n deles é um runtime ou extensão compartilhado pelos aplicativos.</numerusform>
+            <numerusform>%n deles são runtimes e extensões compartilhados pelos aplicativos.</numerusform>
+        </translation>
     </message>
     <message>
         <location filename="../qml/FlatpakPage.qml" line="82"/>
@@ -1232,7 +1318,10 @@
     <message numerus="yes">
         <location filename="../qml/FlatpakPage.qml" line="105"/>
         <source>Type in the search field to find one of %n Flatpak app(s).</source>
-        <translation><numerusform>Digite no campo de pesquisa para encontrar um dos %n aplicativos Flatpak.</numerusform><numerusform>Digite no campo de pesquisa para encontrar um dos %n aplicativos Flatpak.</numerusform></translation>
+        <translation>
+            <numerusform>Digite no campo de pesquisa para encontrar um dos %n aplicativos Flatpak.</numerusform>
+            <numerusform>Digite no campo de pesquisa para encontrar um dos %n aplicativos Flatpak.</numerusform>
+        </translation>
     </message>
     <message>
         <location filename="../qml/FlatpakPage.qml" line="107"/>
@@ -1439,111 +1528,210 @@
     </message>
 </context>
 <context>
+    <name>NumberStepper</name>
+    <message>
+        <location filename="../qml/NumberStepper.qml" line="20"/>
+        <source>Decrease</source>
+        <translation>Diminuir</translation>
+    </message>
+    <message>
+        <location filename="../qml/NumberStepper.qml" line="36"/>
+        <source>Increase</source>
+        <translation>Aumentar</translation>
+    </message>
+</context>
+<context>
     <name>SettingsPage</name>
     <message>
-        <location filename="../qml/SettingsPage.qml" line="28"/>
+        <location filename="../qml/SettingsPage.qml" line="34"/>
         <source>Settings</source>
         <translation>Configurações</translation>
     </message>
     <message>
-        <location filename="../qml/SettingsPage.qml" line="32"/>
+        <location filename="../qml/SettingsPage.qml" line="38"/>
         <source>Appearance</source>
         <translation>Aparência</translation>
     </message>
     <message>
-        <location filename="../qml/SettingsPage.qml" line="39"/>
+        <location filename="../qml/SettingsPage.qml" line="45"/>
         <source>Follow the desktop</source>
         <translation>Seguir o desktop</translation>
     </message>
     <message>
-        <location filename="../qml/SettingsPage.qml" line="40"/>
+        <location filename="../qml/SettingsPage.qml" line="46"/>
         <source>Light</source>
         <translation>Claro</translation>
     </message>
     <message>
-        <location filename="../qml/SettingsPage.qml" line="41"/>
+        <location filename="../qml/SettingsPage.qml" line="47"/>
         <source>Dark</source>
         <translation>Escuro</translation>
     </message>
     <message>
-        <location filename="../qml/SettingsPage.qml" line="61"/>
+        <location filename="../qml/SettingsPage.qml" line="67"/>
         <source>Colours</source>
         <translation>Cores</translation>
     </message>
     <message>
-        <location filename="../qml/SettingsPage.qml" line="133"/>
+        <location filename="../qml/SettingsPage.qml" line="139"/>
         <source>Sources</source>
         <translation>Fontes</translation>
     </message>
     <message>
-        <location filename="../qml/SettingsPage.qml" line="137"/>
+        <location filename="../qml/SettingsPage.qml" line="143"/>
         <source>Arch User Repository (AUR)</source>
         <translation>Arch User Repository (AUR)</translation>
     </message>
     <message>
-        <location filename="../qml/SettingsPage.qml" line="138"/>
+        <location filename="../qml/SettingsPage.qml" line="144"/>
         <source>Build recipes written by the community. They are not reviewed by CachyOS, are built on your machine and can run any code while doing so, so read the PKGBUILD before installing.</source>
         <translation>Receitas de compilação escritas pela comunidade. Elas não são revisadas pelo CachyOS, são compiladas na sua máquina e podem executar qualquer código durante o processo, então leia o PKGBUILD antes de instalar.</translation>
     </message>
     <message>
-        <location filename="../qml/SettingsPage.qml" line="139"/>
+        <location filename="../qml/SettingsPage.qml" line="145"/>
         <source>Building AUR packages needs “paru”, which is not installed. You can still search and review packages.</source>
         <translation>Compilar pacotes do AUR requer o “paru”, que não está instalado. Você ainda pode pesquisar e revisar pacotes.</translation>
     </message>
     <message>
-        <location filename="../qml/SettingsPage.qml" line="146"/>
+        <location filename="../qml/SettingsPage.qml" line="152"/>
         <source>Flatpak</source>
         <translation>Flatpak</translation>
     </message>
     <message>
-        <location filename="../qml/SettingsPage.qml" line="147"/>
+        <location filename="../qml/SettingsPage.qml" line="153"/>
         <source>Sandboxed apps from Flathub and other Flatpak remotes. They are packaged by their developers or the Flathub community, not by CachyOS, and bring their own libraries.</source>
         <translation>Aplicativos isolados do Flathub e de outros remotes Flatpak. Eles são empacotados por seus desenvolvedores ou pela comunidade do Flathub, não pelo CachyOS, e trazem suas próprias bibliotecas.</translation>
     </message>
     <message>
-        <location filename="../qml/SettingsPage.qml" line="149"/>
+        <location filename="../qml/SettingsPage.qml" line="155"/>
         <source>Flatpak is not installed. You can install it from the Flatpak page.</source>
         <translation>O Flatpak não está instalado. Você pode instalá-lo na página Flatpak.</translation>
     </message>
     <message>
-        <location filename="../qml/SettingsPage.qml" line="156"/>
+        <location filename="../qml/SettingsPage.qml" line="162"/>
         <source>AppImage</source>
         <translation>AppImage</translation>
     </message>
     <message>
-        <location filename="../qml/SettingsPage.qml" line="157"/>
+        <location filename="../qml/SettingsPage.qml" line="163"/>
         <source>Single-file apps that you downloaded yourself. They get a menu entry and an icon. They are not checked or sandboxed, and they are not updated for you.</source>
         <translation>Aplicativos de arquivo único que você mesmo baixou. Eles recebem uma entrada de menu e um ícone. Não são verificados nem isolados, e não são atualizados para você.</translation>
     </message>
     <message>
-        <location filename="../qml/SettingsPage.qml" line="166"/>
+        <location filename="../qml/SettingsPage.qml" line="170"/>
+        <source>Open AppImages with this app</source>
+        <translation>Abrir AppImages com este aplicativo</translation>
+    </message>
+    <message>
+        <location filename="../qml/SettingsPage.qml" line="171"/>
+        <source>Double-clicking an AppImage opens it here so it can be added to your menu. This applies to your user.</source>
+        <translation>Dar dois cliques em um AppImage o abre aqui para ser adicionado ao seu menu. Isso se aplica ao seu usuário.</translation>
+    </message>
+    <message>
+        <location filename="../qml/SettingsPage.qml" line="172"/>
+        <source>Setting this needs the “xdg-utils” package.</source>
+        <translation>Configurar isso requer o pacote “xdg-utils”.</translation>
+    </message>
+    <message>
+        <location filename="../qml/SettingsPage.qml" line="177"/>
+        <source>Default for AppImages</source>
+        <translation>Padrão para AppImages</translation>
+    </message>
+    <message>
+        <location filename="../qml/SettingsPage.qml" line="177"/>
+        <source>Set as default</source>
+        <translation>Definir como padrão</translation>
+    </message>
+    <message>
+        <location filename="../qml/SettingsPage.qml" line="186"/>
         <source>Mirrors</source>
         <translation>Espelhos</translation>
     </message>
     <message>
-        <location filename="../qml/SettingsPage.qml" line="170"/>
+        <location filename="../qml/SettingsPage.qml" line="190"/>
         <source>Rank the mirrors by speed</source>
         <translation>Classificar os espelhos por velocidade</translation>
     </message>
     <message>
-        <location filename="../qml/SettingsPage.qml" line="171"/>
+        <location filename="../qml/SettingsPage.qml" line="191"/>
         <source>Packages are downloaded from the first mirror that answers. Ranking measures the Arch and CachyOS mirrors from your connection and rewrites the mirror lists to prefer the fast ones. Worth doing when downloads are slow or fail.</source>
         <translation>Os pacotes são baixados do primeiro espelho que responder. A classificação mede os espelhos do Arch e do CachyOS a partir da sua conexão e reescreve as listas de espelhos para preferir os mais rápidos. Vale a pena quando os downloads estão lentos ou falham.</translation>
     </message>
     <message>
-        <location filename="../qml/SettingsPage.qml" line="172"/>
+        <location filename="../qml/SettingsPage.qml" line="192"/>
         <source>Ranking needs the “cachyos-rate-mirrors” package, which is not installed.</source>
         <translation>A classificação requer o pacote “cachyos-rate-mirrors”, que não está instalado.</translation>
     </message>
     <message>
-        <location filename="../qml/SettingsPage.qml" line="176"/>
+        <location filename="../qml/SettingsPage.qml" line="196"/>
         <source>Rank mirrors</source>
         <translation>Classificar espelhos</translation>
     </message>
     <message>
-        <location filename="../qml/SettingsPage.qml" line="176"/>
+        <location filename="../qml/SettingsPage.qml" line="196"/>
         <source>Install cachyos-rate-mirrors</source>
         <translation>Instalar cachyos-rate-mirrors</translation>
+    </message>
+    <message>
+        <location filename="../qml/SettingsPage.qml" line="205"/>
+        <source>Package cache</source>
+        <translation>Cache de pacotes</translation>
+    </message>
+    <message>
+        <location filename="../qml/SettingsPage.qml" line="209"/>
+        <source>Installed packages</source>
+        <translation>Pacotes instalados</translation>
+    </message>
+    <message>
+        <location filename="../qml/SettingsPage.qml" line="210"/>
+        <source>Old versions of installed packages are kept in the pacman cache. Keeping fewer versions frees disk space.</source>
+        <translation>Versões antigas de pacotes instalados são mantidas no cache do pacman. Manter menos versões libera espaço em disco.</translation>
+    </message>
+    <message>
+        <location filename="../qml/SettingsPage.qml" line="211"/>
+        <location filename="../qml/SettingsPage.qml" line="249"/>
+        <source>Cleaning needs the “pacman-contrib” package, which is not installed.</source>
+        <translation>A limpeza requer o pacote “pacman-contrib”, que não está instalado.</translation>
+    </message>
+    <message>
+        <location filename="../qml/SettingsPage.qml" line="218"/>
+        <location filename="../qml/SettingsPage.qml" line="256"/>
+        <source>Keep</source>
+        <translation>Manter</translation>
+    </message>
+    <message>
+        <location filename="../qml/SettingsPage.qml" line="230"/>
+        <location filename="../qml/SettingsPage.qml" line="268"/>
+        <source>Checking…</source>
+        <translation>Verificando…</translation>
+    </message>
+    <message>
+        <location filename="../qml/SettingsPage.qml" line="231"/>
+        <location filename="../qml/SettingsPage.qml" line="269"/>
+        <source>Clean %1</source>
+        <translation>Limpar %1</translation>
+    </message>
+    <message>
+        <location filename="../qml/SettingsPage.qml" line="232"/>
+        <location filename="../qml/SettingsPage.qml" line="270"/>
+        <source>Nothing to clean</source>
+        <translation>Nada para limpar</translation>
+    </message>
+    <message>
+        <location filename="../qml/SettingsPage.qml" line="239"/>
+        <location filename="../qml/SettingsPage.qml" line="277"/>
+        <source>Install pacman-contrib</source>
+        <translation>Instalar pacman-contrib</translation>
+    </message>
+    <message>
+        <location filename="../qml/SettingsPage.qml" line="247"/>
+        <source>Uninstalled packages</source>
+        <translation>Pacotes não instalados</translation>
+    </message>
+    <message>
+        <location filename="../qml/SettingsPage.qml" line="248"/>
+        <source>Cached versions of packages that are no longer installed serve no purpose. They can be removed without keeping a version.</source>
+        <translation>Versões em cache de pacotes que não estão mais instalados não têm utilidade. Elas podem ser removidas sem manter nenhuma versão.</translation>
     </message>
 </context>
 <context>
@@ -1582,162 +1770,199 @@
 <context>
     <name>Transaction</name>
     <message>
-        <location filename="../src/transaction.cpp" line="81"/>
+        <location filename="../src/transaction.cpp" line="84"/>
         <source>Install %1</source>
         <translation>Instalar %1</translation>
     </message>
     <message>
-        <location filename="../src/transaction.cpp" line="83"/>
+        <location filename="../src/transaction.cpp" line="86"/>
         <source>Remove %1</source>
         <translation>Remover %1</translation>
     </message>
     <message>
-        <location filename="../src/transaction.cpp" line="84"/>
+        <location filename="../src/transaction.cpp" line="87"/>
         <source>Update the system</source>
         <translation>Atualizar o sistema</translation>
     </message>
     <message>
-        <location filename="../src/transaction.cpp" line="85"/>
+        <location filename="../src/transaction.cpp" line="88"/>
         <source>Update Flatpak apps</source>
         <translation>Atualizar aplicativos Flatpak</translation>
     </message>
     <message>
-        <location filename="../src/transaction.cpp" line="86"/>
+        <location filename="../src/transaction.cpp" line="89"/>
         <source>Add Flathub</source>
         <translation>Adicionar Flathub</translation>
     </message>
     <message>
-        <location filename="../src/transaction.cpp" line="87"/>
+        <location filename="../src/transaction.cpp" line="90"/>
         <source>Rank the mirrors</source>
         <translation>Classificar os espelhos</translation>
     </message>
-    <message numerus="yes">
-        <location filename="../src/transaction.cpp" line="89"/>
-        <source>Build %n package(s) from the AUR</source>
-        <translation><numerusform>Compilar %n pacote do AUR</numerusform><numerusform>Compilar %n pacotes do AUR</numerusform></translation>
+    <message>
+        <location filename="../src/transaction.cpp" line="91"/>
+        <source>Clean cached installed packages</source>
+        <translation>Limpar pacotes instalados em cache</translation>
     </message>
     <message>
-        <location filename="../src/transaction.cpp" line="90"/>
+        <location filename="../src/transaction.cpp" line="92"/>
+        <source>Clean cached uninstalled packages</source>
+        <translation>Limpar pacotes não instalados em cache</translation>
+    </message>
+    <message numerus="yes">
+        <location filename="../src/transaction.cpp" line="94"/>
+        <source>Build %n package(s) from the AUR</source>
+        <translation>
+            <numerusform>Compilar %n pacote do AUR</numerusform>
+            <numerusform>Compilar %n pacotes do AUR</numerusform>
+        </translation>
+    </message>
+    <message>
+        <location filename="../src/transaction.cpp" line="95"/>
         <source>Build %1 from the AUR</source>
         <translation>Compilar %1 do AUR</translation>
     </message>
     <message>
-        <location filename="../src/transaction.cpp" line="97"/>
+        <location filename="../src/transaction.cpp" line="102"/>
         <source>Flatpak will download the app and the runtime it needs, and install them for all users. It asks for permission itself if that is required.</source>
         <translation>O Flatpak baixará o aplicativo e o runtime necessário e os instalará para todos os usuários. Ele mesmo pede permissão, se necessário.</translation>
     </message>
     <message>
-        <location filename="../src/transaction.cpp" line="99"/>
+        <location filename="../src/transaction.cpp" line="104"/>
         <source>The app will be removed, and with it the runtimes that no other app needs. Its data in your home directory is kept.</source>
         <translation>O aplicativo será removido, junto com os runtimes que nenhum outro aplicativo precisa. Seus dados no diretório pessoal são mantidos.</translation>
     </message>
     <message>
-        <location filename="../src/transaction.cpp" line="100"/>
+        <location filename="../src/transaction.cpp" line="105"/>
         <source>Every installed Flatpak app and runtime will be updated.</source>
         <translation>Todos os aplicativos e runtimes Flatpak instalados serão atualizados.</translation>
     </message>
     <message>
-        <location filename="../src/transaction.cpp" line="101"/>
+        <location filename="../src/transaction.cpp" line="106"/>
         <source>Flathub will be added as an app source for all users.</source>
         <translation>O Flathub será adicionado como fonte de aplicativos para todos os usuários.</translation>
     </message>
     <message>
-        <location filename="../src/transaction.cpp" line="102"/>
+        <location filename="../src/transaction.cpp" line="107"/>
         <source>The package databases will be refreshed and every available update installed.</source>
         <translation>Os bancos de dados de pacotes serão atualizados e todas as atualizações disponíveis serão instaladas.</translation>
     </message>
     <message>
-        <location filename="../src/transaction.cpp" line="104"/>
+        <location filename="../src/transaction.cpp" line="109"/>
         <source>The download speed of the Arch and CachyOS mirrors will be measured and the mirror lists rewritten to prefer the fast ones. This takes a minute or two; a copy of the current lists is kept until the next ranking.</source>
         <translation>A velocidade de download dos espelhos do Arch e do CachyOS será medida e as listas de espelhos reescritas para preferir os mais rápidos. Isso leva um ou dois minutos; uma cópia das listas atuais é mantida até a próxima classificação.</translation>
     </message>
+    <message numerus="yes">
+        <location filename="../src/transaction.cpp" line="111"/>
+        <source>Old versions of installed packages will be removed from the pacman cache; %n version(s) of each package will be kept.</source>
+        <translation><numerusform>Versões antigas de pacotes instalados serão removidas do cache do pacman; %n versão de cada pacote será mantida.</numerusform><numerusform>Versões antigas de pacotes instalados serão removidas do cache do pacman; %n versões de cada pacote serão mantidas.</numerusform></translation>
+    </message>
+    <message numerus="yes">
+        <location filename="../src/transaction.cpp" line="113"/>
+        <source>Cached versions of packages that are no longer installed will be removed from the pacman cache; %n version(s) of each package will be kept.</source>
+        <translation><numerusform>Versões em cache de pacotes que não estão mais instalados serão removidas do cache do pacman; %n versão de cada pacote será mantida.</numerusform><numerusform>Versões em cache de pacotes que não estão mais instalados serão removidas do cache do pacman; %n versões de cada pacote serão mantidas.</numerusform></translation>
+    </message>
     <message>
-        <location filename="../src/transaction.cpp" line="107"/>
+        <location filename="../src/transaction.cpp" line="116"/>
         <source>paru will download the sources, build %1 as your user and then ask for permission to install them. This can take a while.</source>
         <translation>O paru baixará as fontes, compilará %1 como seu usuário e então pedirá permissão para instalá-los. Isso pode demorar.</translation>
     </message>
     <message>
-        <location filename="../src/transaction.cpp" line="108"/>
+        <location filename="../src/transaction.cpp" line="117"/>
         <source>paru will download the sources, build the package as your user and then ask for permission to install it. This can take a while.</source>
         <translation>O paru baixará as fontes, compilará o pacote como seu usuário e então pedirá permissão para instalá-lo. Isso pode demorar.</translation>
     </message>
     <message numerus="yes">
-        <location filename="../src/transaction.cpp" line="109"/>
+        <location filename="../src/transaction.cpp" line="118"/>
         <source>%n package(s) will be removed:</source>
-        <translation><numerusform>%n pacote será removido:</numerusform><numerusform>%n pacotes serão removidos:</numerusform></translation>
+        <translation>
+            <numerusform>%n pacote será removido:</numerusform>
+            <numerusform>%n pacotes serão removidos:</numerusform>
+        </translation>
     </message>
     <message numerus="yes">
-        <location filename="../src/transaction.cpp" line="111"/>
+        <location filename="../src/transaction.cpp" line="120"/>
         <source>%n package(s) will be installed (%1 to download):</source>
-        <translation><numerusform>%n pacote será instalado (%1 para baixar):</numerusform><numerusform>%n pacotes serão instalados (%1 para baixar):</numerusform></translation>
+        <translation>
+            <numerusform>%n pacote será instalado (%1 para baixar):</numerusform>
+            <numerusform>%n pacotes serão instalados (%1 para baixar):</numerusform>
+        </translation>
     </message>
     <message>
-        <location filename="../src/transaction.cpp" line="119"/>
+        <location filename="../src/transaction.cpp" line="128"/>
         <source>Remove</source>
         <translation>Remover</translation>
     </message>
     <message>
-        <location filename="../src/transaction.cpp" line="121"/>
+        <location filename="../src/transaction.cpp" line="130"/>
         <source>Update</source>
         <translation>Atualizar</translation>
     </message>
     <message>
-        <location filename="../src/transaction.cpp" line="122"/>
+        <location filename="../src/transaction.cpp" line="131"/>
         <source>Add</source>
         <translation>Adicionar</translation>
     </message>
     <message>
-        <location filename="../src/transaction.cpp" line="123"/>
+        <location filename="../src/transaction.cpp" line="132"/>
         <source>Rank</source>
         <translation>Classificar</translation>
     </message>
     <message>
-        <location filename="../src/transaction.cpp" line="124"/>
+        <location filename="../src/transaction.cpp" line="134"/>
+        <source>Clean</source>
+        <translation>Limpar</translation>
+    </message>
+    <message>
+        <location filename="../src/transaction.cpp" line="135"/>
         <source>Install</source>
         <translation>Instalar</translation>
     </message>
     <message>
-        <location filename="../src/transaction.cpp" line="243"/>
+        <location filename="../src/transaction.cpp" line="265"/>
         <source>%1 is missing. Reinstall the package installer.</source>
         <translation>%1 está ausente. Reinstale o instalador de pacotes.</translation>
     </message>
     <message>
-        <location filename="../src/transaction.cpp" line="296"/>
+        <location filename="../src/transaction.cpp" line="318"/>
         <source>Could not start %1</source>
         <translation>Não foi possível iniciar %1</translation>
     </message>
     <message numerus="yes">
-        <location filename="../src/transaction.cpp" line="339"/>
+        <location filename="../src/transaction.cpp" line="361"/>
         <source>%1 cannot be removed: %n installed package(s) depend on it.</source>
-        <translation><numerusform>%1 não pode ser removido: %n pacote instalado depende dele.</numerusform><numerusform>%1 não pode ser removido: %n pacotes instalados dependem dele.</numerusform></translation>
+        <translation>
+            <numerusform>%1 não pode ser removido: %n pacote instalado depende dele.</numerusform>
+            <numerusform>%1 não pode ser removido: %n pacotes instalados dependem dele.</numerusform>
+        </translation>
     </message>
     <message>
-        <location filename="../src/transaction.cpp" line="340"/>
+        <location filename="../src/transaction.cpp" line="362"/>
         <source>Among them: %1, …</source>
         <translation>Entre eles: %1, …</translation>
     </message>
     <message>
-        <location filename="../src/transaction.cpp" line="340"/>
+        <location filename="../src/transaction.cpp" line="362"/>
         <source>Needed by: %1</source>
         <translation>Necessário para: %1</translation>
     </message>
     <message>
-        <location filename="../src/transaction.cpp" line="342"/>
+        <location filename="../src/transaction.cpp" line="364"/>
         <source>pacman could not resolve this operation.</source>
         <translation>O pacman não conseguiu resolver esta operação.</translation>
     </message>
     <message>
-        <location filename="../src/transaction.cpp" line="345"/>
+        <location filename="../src/transaction.cpp" line="367"/>
         <source>Already installed and up to date.</source>
         <translation>Já instalado e atualizado.</translation>
     </message>
     <message>
-        <location filename="../src/transaction.cpp" line="345"/>
+        <location filename="../src/transaction.cpp" line="367"/>
         <source>Nothing to do.</source>
         <translation>Nada a fazer.</translation>
     </message>
     <message>
-        <location filename="../src/transaction.cpp" line="366"/>
+        <location filename="../src/transaction.cpp" line="388"/>
         <source>
 The unused runtimes could not be removed (exit code %1).
 </source>
@@ -1746,12 +1971,12 @@ Os runtimes não utilizados não puderam ser removidos (código de saída %1).
 </translation>
     </message>
     <message>
-        <location filename="../src/transaction.cpp" line="380"/>
+        <location filename="../src/transaction.cpp" line="402"/>
         <source>Authentication was cancelled or denied. Nothing was changed.</source>
         <translation>A autenticação foi cancelada ou negada. Nada foi alterado.</translation>
     </message>
     <message>
-        <location filename="../src/transaction.cpp" line="382"/>
+        <location filename="../src/transaction.cpp" line="404"/>
         <source>
 The operation failed (exit code %1).
 </source>
@@ -1763,62 +1988,62 @@ A operação falhou (código de saída %1).
 <context>
     <name>TransactionDialog</name>
     <message>
-        <location filename="../qml/TransactionDialog.qml" line="58"/>
+        <location filename="../qml/TransactionDialog.qml" line="59"/>
         <source>Working out what will change…</source>
         <translation>Calculando o que será alterado…</translation>
     </message>
     <message>
-        <location filename="../qml/TransactionDialog.qml" line="92"/>
+        <location filename="../qml/TransactionDialog.qml" line="93"/>
         <source>Looking for an update notice…</source>
         <translation>Procurando um aviso de atualização…</translation>
     </message>
     <message>
-        <location filename="../qml/TransactionDialog.qml" line="110"/>
+        <location filename="../qml/TransactionDialog.qml" line="111"/>
         <source>The update notices could not be checked. If CachyOS published one, it will only appear in the details of this update.</source>
         <translation>Não foi possível verificar os avisos de atualização. Se o CachyOS publicou um, ele aparecerá apenas nos detalhes desta atualização.</translation>
     </message>
     <message>
-        <location filename="../qml/TransactionDialog.qml" line="195"/>
+        <location filename="../qml/TransactionDialog.qml" line="196"/>
         <source>Done.</source>
         <translation>Concluído.</translation>
     </message>
     <message>
-        <location filename="../qml/TransactionDialog.qml" line="196"/>
+        <location filename="../qml/TransactionDialog.qml" line="197"/>
         <source>The operation did not complete.</source>
         <translation>A operação não foi concluída.</translation>
     </message>
     <message>
-        <location filename="../qml/TransactionDialog.qml" line="258"/>
+        <location filename="../qml/TransactionDialog.qml" line="259"/>
         <source>Hide details</source>
         <translation>Ocultar detalhes</translation>
     </message>
     <message>
-        <location filename="../qml/TransactionDialog.qml" line="258"/>
+        <location filename="../qml/TransactionDialog.qml" line="259"/>
         <source>Show details</source>
         <translation>Mostrar detalhes</translation>
     </message>
     <message>
-        <location filename="../qml/TransactionDialog.qml" line="265"/>
+        <location filename="../qml/TransactionDialog.qml" line="266"/>
         <source>Copy log</source>
         <translation>Copiar registro</translation>
     </message>
     <message>
-        <location filename="../qml/TransactionDialog.qml" line="272"/>
+        <location filename="../qml/TransactionDialog.qml" line="273"/>
         <source>Cancel</source>
         <translation>Cancelar</translation>
     </message>
     <message>
-        <location filename="../qml/TransactionDialog.qml" line="273"/>
+        <location filename="../qml/TransactionDialog.qml" line="274"/>
         <source>Stop build</source>
         <translation>Parar compilação</translation>
     </message>
     <message>
-        <location filename="../qml/TransactionDialog.qml" line="273"/>
+        <location filename="../qml/TransactionDialog.qml" line="274"/>
         <source>Stop</source>
         <translation>Parar</translation>
     </message>
     <message>
-        <location filename="../qml/TransactionDialog.qml" line="287"/>
+        <location filename="../qml/TransactionDialog.qml" line="288"/>
         <source>Close</source>
         <translation>Fechar</translation>
     </message>
@@ -1836,7 +2061,10 @@ A operação falhou (código de saída %1).
     <message numerus="yes">
         <location filename="../qml/UpdatesBanner.qml" line="22"/>
         <source>%n update(s) available</source>
-        <translation><numerusform>%n atualização disponível</numerusform><numerusform>%n atualizações disponíveis</numerusform></translation>
+        <translation>
+            <numerusform>%n atualização disponível</numerusform>
+            <numerusform>%n atualizações disponíveis</numerusform>
+        </translation>
     </message>
 </context>
 <context>
@@ -1844,7 +2072,10 @@ A operação falhou (código de saída %1).
     <message numerus="yes">
         <location filename="../qml/UpdatesPage.qml" line="18"/>
         <source>%n update(s) available</source>
-        <translation><numerusform>%n atualização disponível</numerusform><numerusform>%n atualizações disponíveis</numerusform></translation>
+        <translation>
+            <numerusform>%n atualização disponível</numerusform>
+            <numerusform>%n atualizações disponíveis</numerusform>
+        </translation>
     </message>
     <message>
         <location filename="../qml/UpdatesPage.qml" line="18"/>
